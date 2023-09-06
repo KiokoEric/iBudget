@@ -1,0 +1,157 @@
+.Income {
+    background-color: var(--Page-Color);
+    border-radius: 25px;
+    color: var(--Text-Color);
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.2rem;
+    font-family: 'Instrument Serif', serif;
+    height: 97vh;
+    margin-top: 1rem;
+    padding: 1.5rem 2.5rem;
+    width: 1175px;
+}
+.Income section:first-child h1 {
+    font-size: 45px;
+    text-align: center;
+}
+.Income section:first-child div {
+    margin-bottom: 1.2rem;
+    text-align: center;
+}
+.Income section:first-child div h3 {
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.5rem;
+    justify-content: center;
+    font-size: 30px;
+    letter-spacing: 1px;
+} 
+.Income section:last-child {
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+}
+.Income section:last-child form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+.Income section:last-child form p {
+    height: 40px;
+    width: 300px;
+}
+.Income section:last-child form p span {
+    color: red;
+    padding-top: 1rem;
+}
+.Income section:last-child form input {
+    border: none;
+    border-radius: 2px;
+    height: 35px;
+    outline: 0;
+    width: 300px;
+}
+.Income section:last-child form input[type="text"] {
+    font-family: 'Instrument Serif', serif;
+    font-size: 16px;
+    padding-left: 0.5rem;
+}
+.Income section:last-child form input[type="number"] {
+    font-family: 'Instrument Serif', serif;
+    font-size: 16px;
+    padding-left: 0.5rem;
+}
+.Income section:last-child form input[type="date"] {
+    font-family: 'Instrument Serif', serif;
+    font-size: 16px;
+    padding-left: 0.5rem;
+    text-transform:uppercase;
+}
+.Income section:last-child form textarea {
+    border-radius: 4px;
+    outline: 0;
+}
+.Income section:last-child form textarea[type="text"] {
+    font-family: 'Instrument Serif', serif;
+    font-size: 16px;
+    padding-top: 0.4rem;
+    padding-left: 0.5rem;
+}
+.Income section:last-child form button {
+    cursor: pointer;
+    font-family: 'Instrument Serif', serif;
+    font-size: 16px;
+    padding: 0.5rem 0.8rem;
+}
+.IncomeHistory {
+    height: 450px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0.8rem;
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--Page-Color);
+}
+::-webkit-scrollbar-track {
+    background-color: white;
+}
+.Income section:last-child div li {
+    background-color: #323b4775;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    list-style-type: none;
+    margin-bottom: 0.8rem;
+    padding: 0rem 2rem;
+    width: 750px;
+}
+.Income section:last-child li div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.85rem;
+    width: 700px;
+}
+.Income section:last-child div li p {
+    /* background-color: #323b4775; */
+    border: none;
+    color: white;
+    font-family: 'Instrument Serif', serif;
+    font-size: 19px;
+    outline: 0;
+}
+#Memo {
+    width: 300px;
+}
+#Edit {
+    background-color: white;
+    border-radius: 50%;
+    color: var(--Font-Color);
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 60px;
+    font-size: 20px;
+    margin-right: 0.65rem;
+}
+#Delete {
+    background-color: white;
+    border-radius: 50%;
+    color: var(--Font-Color);
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 60px;
+    font-size: 20px;
+}

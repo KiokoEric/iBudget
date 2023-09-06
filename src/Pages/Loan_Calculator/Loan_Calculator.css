@@ -1,0 +1,157 @@
+.Calculator {
+    background-color: var(--Page-Color);
+    border-radius: 25px;
+    color: var(--Text-Color);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    row-gap: 1.2rem;;
+    margin-top: 1rem;
+    padding: 2.5rem 2rem;
+    width: 1160px;
+}
+.Calculator section:first-child h1 {
+    font-size: 40px;
+    text-align: center;
+}
+.Calculator section:nth-child(2) div:first-child {
+    display: flex;
+    flex-direction: row;
+    column-gap: 15rem; 
+    align-items: center;
+    justify-content: center;
+}
+.Calculator section:nth-child(2) div:first-child section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+.Calculator section:nth-child(2) div:first-child p {
+    display: flex;
+    flex-direction: column;
+}
+.Calculator section:nth-child(2) label {
+    font-size: 20px;
+    margin-bottom: 0.4rem;
+}
+.Calculator section:nth-child(2) span {
+    color: red;
+    margin-top: 0.1rem;
+}
+.Calculator section:nth-child(2) div:first-child input {
+    border-radius: 5px;
+    height: 40px;
+    margin-bottom: 0.5rem;
+    width: 250px;
+}
+.Calculator section:nth-child(2) div:first-child section:last-child input {
+    border-radius: 4px;
+    height: 40px;
+    margin-bottom: 1.5rem;
+    outline: 0;
+    width: 250px;
+}
+.Calculator section:nth-child(2) div:first-child section:last-child input[type="text"] {
+    color: black;
+    font-family: 'Instrument Serif', serif;
+    font-size: 17px;
+    font-weight: bold;
+}
+.Calculator section:nth-child(2) div:first-child section:last-child p:last-child {
+    margin-left: 2rem;
+}
+.Calculator section:nth-child(2) input[type = "number"] {
+    color: black;
+    font-family: 'Instrument Serif', serif;
+    font-size: 16px;
+    padding-left: 0.5rem;
+}
+.Calculator section:nth-child(2) input[type = "text"] {
+    color: black;
+    font-family: 'Instrument Serif', serif;
+    font-size: 16px;
+    padding-left: 0.5rem;
+}
+.Calculator section:nth-child(2) div:last-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Calculator section:nth-child(2) button {
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    color: black;
+    cursor: pointer;
+    font-family: 'Instrument Serif', serif;
+    font-size: 16px;
+    font-weight: bold;
+    height: 35px; 
+    margin-top: 2rem;
+    width: 150px;
+}
+.Calculator section:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 1.5rem;
+}
+.Calculator section:last-child tr {
+    display: flex;
+    flex-direction: row;
+    column-gap: 2.5rem;
+    font-family: 'Instrument Serif', serif;
+    font-size: 16px;
+    margin-bottom: 0.8rem;
+}
+.Calculator section:last-child thead tr {
+    border-bottom: 1px solid white;
+    padding-bottom: 0.65rem;
+}
+.Calculator section:last-child thead td {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 17px;
+    font-weight: bold;
+    width: 150px;
+}
+.Calculator section:last-child thead td:first-child {
+    margin-left: 3.5rem;
+}
+.Calculator section:last-child thead td:nth-child(2) {
+    margin-left: -1rem;
+}
+.Calculator section:last-child thead td:nth-child(3) {
+    margin-left: 0.8rem;
+}
+.Calculator section:last-child thead td:nth-child(4) {
+    margin-left: 1.25rem;
+}
+.Calculator section:last-child thead td:last-child {
+    margin-left: 6.5rem;
+}
+.Calculator section:last-child tbody tr {
+    border-bottom: 1px solid white;
+    padding-bottom: 0.65rem;
+}
+.Calculator section:last-child tbody tr {
+    display: flex;
+    flex-direction: row;
+    column-gap: 6.5rem;
+}
+.Calculator section:last-child tbody td {
+    color: var(--Text-Color);
+    font-size: 18px;
+    margin-bottom: 0.5rem;
+    margin-left: 0.4rem;
+    text-align: center;
+    width: 100px;
+}
+.Calculator section:last-child tbody td:first-child {
+    padding-left: 2rem;
+}
+.Calculator section:last-child tbody td:last-child {
+    margin: auto;
+    width: 40px;
+}

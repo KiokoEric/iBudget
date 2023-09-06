@@ -1,0 +1,102 @@
+.Dashboard {
+    background-color: var(--Page-Color);
+    border-radius: 25px;
+    color: var(--Text-Color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1.2rem;
+    font-family: 'Instrument Serif', serif;
+    height: 97vh;
+    margin-top: 1rem;
+    padding: 2.5rem 2.5rem;
+    width: 1175px;
+}
+.Dashboard section:first-child {
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+}
+.Dashboard section:first-child div {
+    background-color: #323b4775;
+    border-radius: 4px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 1rem;
+    height: 120px;
+    width: 280px;
+}
+.Dashboard section:first-child div h1 {
+    font-size: 35px;
+}
+.Dashboard section:first-child div h2 {
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+.History {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5rem;
+}
+.History h2 {
+    color: var(--Text-Color);
+    font-size: 32px;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.History article {
+    height: 400px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0.8rem;
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--Page-Color);
+}
+::-webkit-scrollbar-track {
+    background-color: white;
+}
+.History li {
+    background-color: #323b4775;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    height: 132px;
+    list-style-type: none;
+    margin-bottom: 0.8rem;
+    padding: 1rem 2rem;
+    width: 900px;
+}
+.History li div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.5rem;
+    width: 850px;
+}
+.History li div h3 {
+    color: white;
+    font-size: 22px;
+    font-weight: normal;
+}
+.Dashboard li div section:last-child {
+    display: flex;
+    flex-direction: row;
+    column-gap: 4.5rem;
+}
+.History li p {
+    border: none;
+    color: white;
+    font-family: 'Instrument Serif', serif;
+    font-size: 20px;
+    margin-top: -0.5rem;
+    outline: 0;
+}
+#Memo {
+    width: 400px;
+}

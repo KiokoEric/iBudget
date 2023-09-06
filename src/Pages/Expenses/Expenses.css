@@ -1,0 +1,142 @@
+.Expense {
+    background-color: var(--Page-Color);
+    border-radius: 25px;
+    color: var(--Text-Color);
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.2rem;
+    font-family: 'Instrument Serif', serif;
+    height: 97vh;
+    margin-top: 1rem;
+    padding: 1.5rem 2.5rem;
+    width: 1175px;
+}
+.Expense section:first-child h1 {
+    font-size: 45px;
+    text-align: center;
+}
+.Expense section:first-child div {
+    margin-bottom: 1.2rem;
+    text-align: center;
+}
+.Expense section:first-child div h3 {
+    font-size: 30px;
+    letter-spacing: 1px; 
+}
+.Expense section:last-child {
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+}
+.Expense section:last-child form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+.Expense section:last-child form p {
+    height: 40px;
+    width: 300px;
+}
+.Expense section:last-child form p span {
+    color: red;
+    padding-top: 1rem;
+}
+.Expense section:last-child form input {
+    border: none;
+    border-radius: 2px;
+    height: 35px;
+    outline: 0;
+    width: 300px;
+}
+.Expense section:last-child form input[type="text"] {
+    font-family: 'Instrument Serif', serif;
+    font-size: 16px;
+    padding-left: 0.5rem;
+}
+.Expense section:last-child form input[type="number"] {
+    font-family: 'Instrument Serif', serif;
+    font-size: 16px;
+    padding-left: 0.5rem;
+}
+.Expense section:last-child form input[type="date"] {
+    font-family: 'Instrument Serif', serif;
+    font-size: 16px;
+    padding-left: 0.5rem;
+    text-transform:uppercase;
+}
+.Expense section:last-child form textarea {
+    border-radius: 4px;
+    outline: 0;
+}
+.Expense section:last-child form textarea[type="text"] {
+    font-family: 'Instrument Serif', serif;
+    font-size: 16px;
+    padding-top: 0.4rem;
+    padding-left: 0.5rem;
+}
+.Expense section:last-child form button {
+    cursor: pointer;
+    font-family: 'Instrument Serif', serif;
+    font-size: 16px;
+    padding: 0.5rem 0.8rem;
+}
+.ExpenseHistory {
+    height: 450px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0.8rem;
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--Page-Color);
+    padding-left: 0.5rem;
+}
+::-webkit-scrollbar-track {
+    background-color: white;
+    padding-left: 0.5rem;
+}
+.Expense section:last-child div li {
+    background-color: #323b4775;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    list-style-type: none;
+    margin-bottom: 0.8rem;
+    margin-right: 4rem;
+    padding: 0rem 2rem;
+    width: 750px;
+}
+.Expense section:last-child li div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.85rem;
+    width: 700px;
+}
+.Expense section:last-child div li p {
+    /* background-color: var(--Background-Color); */
+    border: none;
+    color: white;
+    font-family: 'Instrument Serif', serif;
+    font-size: 19px;
+    outline: 0;
+}
+#Memo {
+    width: 300px;
+}
+#Delete {
+    background-color: white;
+    border-radius: 50%;
+    color: var(--Font-Color);
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    font-size: 20px;
+}

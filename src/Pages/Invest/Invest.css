@@ -1,0 +1,131 @@
+.Invest {
+    background-color: var(--Page-Color);
+    border-radius: 25px;
+    color: var(--Text-Color);
+    display: flex;
+    flex-direction: column;
+    height: 97vh;
+    row-gap: 1.2rem;;
+    margin-top: 1rem;
+    padding: 1.5rem 2.5rem;
+    width: 1175px;
+}
+.Invest section:first-child {
+    background-image: url(../../Images/Stock_Market.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    margin-left: -1.2rem;
+    margin-bottom: 0.25rem;
+    width: 1140px;
+}
+.Invest section:first-child h1 {
+    color: white;
+    font-size: 45px;
+    margin-bottom: 1.5rem;
+    text-transform: capitalize;
+}
+.Invest section:first-child form {
+    background-color: white;
+    border-radius: 2px;
+    height: 45px;
+    margin-bottom: 0.55rem;
+    padding: 0.2rem 0rem;
+    width: 600px;
+}
+.Invest section:first-child form input {
+    border: none;
+    border-radius: 4px;
+    height: 40px;
+    outline: 0;
+    width: 538px;
+}
+.Invest section:first-child form input[type="text"] {
+    font-family: 'Instrument Serif', serif;
+    font-size: 18px;
+    padding-left: 0.85rem;
+}
+.Invest section:first-child form button {
+    background-color: #183D3D;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    width: 60px;
+}
+.Invest section:first-child form i {
+    font-size: 20px;
+    color: white;
+}
+.Invest section:first-child form p {
+    color: white;
+    font-size: 20px;
+    margin-top: 1.2rem;
+    text-align: center;
+}
+.Invest section:first-child span {
+    font-size: 18px;
+    color: red;
+}
+.Invest table {
+    display: flex;
+    flex-direction: column;
+}
+.Invest table thead {
+    background-color: #183D3D;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 0.5rem;
+    height: 40px;
+    margin-left: -1rem;
+    padding: 0.5rem 0rem;
+    width: 1135px;
+}
+.Invest table th {
+    color: white;
+    font-weight: normal;
+    margin-top: 1.2rem;
+    padding-bottom: 1.5rem;
+    width: 200px;
+}
+.Invest table th:nth-child(1){
+    margin-left: -1.6rem;
+}
+.Invest table th:nth-child(2){
+    margin-left: -2.2rem;
+}
+.Invest table th:nth-child(3){
+    margin-left: -2rem;
+}
+.Invest table th:nth-child(4){
+    margin-left: -1.5rem;
+}
+.Invest table th:nth-child(5){
+    margin-left: 1.2rem;
+}
+.Invest table th:nth-child(6){
+    margin-left: -2rem;
+}
+.Invest table tbody {
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.5rem;
+    justify-content: space-between;
+}
+.Invest table td {
+    color: var(--Text-Color);
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 1.2rem;
+    padding-left: 1.4rem;
+    padding-bottom: 0.65rem;
+    width: 200px;
+}

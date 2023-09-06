@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/iBudget/static/css/main.433edfae.css",
+    "main.js": "/iBudget/static/js/main.c7dd2909.js",
+    "static/js/787.0d9f571e.chunk.js": "/iBudget/static/js/787.0d9f571e.chunk.js",
+    "static/media/Stock_Market.jpg": "/iBudget/static/media/Stock_Market.ce59132b8538b77e8396.jpg",
+    "index.html": "/iBudget/index.html",
+    "main.433edfae.css.map": "/iBudget/static/css/main.433edfae.css.map",
+    "main.c7dd2909.js.map": "/iBudget/static/js/main.c7dd2909.js.map",
+    "787.0d9f571e.chunk.js.map": "/iBudget/static/js/787.0d9f571e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.433edfae.css",
+    "static/js/main.c7dd2909.js"
+  ]
+}

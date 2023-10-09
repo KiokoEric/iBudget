@@ -6,12 +6,15 @@
     flex-direction: column;
     height: 97vh;
     margin-top: 1rem;
-    padding-left: 2rem;
+    padding-left: 2rem; 
     width: 235px;
 }
 .SideBar div:first-child {
     margin-top: 2.5rem;
     margin-bottom: 1.5rem;
+}
+.SideBar div:first-child h1 {
+    font-size: 35px;
 }
 .SideBar div:last-child {
     display: flex;

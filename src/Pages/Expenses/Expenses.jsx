@@ -132,14 +132,15 @@ return (
             {
                 Transactions.map((Transaction) => (
                 <li key={Transaction.id} >
+                    <i id='Icon' class="fa-solid fa-money-bill-transfer"></i>
                     <div>
                         <section>
-                            <p>{Transaction.name}</p> 
+                            <h3>{Transaction.name}</h3> 
                         </section>
                         <section>
-                            <p>Kshs. {Transaction.figure}</p>
-                            <p>Date: {Transaction.Date}</p>
-                            <p id='Memo' >{Transaction.Details}</p>
+                            <p> <i class="fa-solid fa-coins"></i> Kshs. {Transaction.figure}</p>
+                            <p> <i class="fa-solid fa-calendar-days"></i> Date: {Transaction.Date}</p>
+                            <p id='Memo' > <i class="fa-solid fa-comment"></i> {Transaction.Details}</p>
                         </section>
                     </div>
                     <i onClick={() => handleDelete(Transaction.id)} id='Delete' class="fa-solid fa-trash"></i>

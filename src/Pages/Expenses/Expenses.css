@@ -31,6 +31,7 @@
 .Expense section:last-child form {
     display: flex;
     flex-direction: column;
+    align-items: center;
     row-gap: 2rem;
 }
 .Expense section:last-child form p {
@@ -67,6 +68,7 @@
 .Expense section:last-child form textarea {
     border-radius: 4px;
     outline: 0;
+    width: 300px;
 }
 .Expense section:last-child form textarea[type="text"] {
     font-family: 'Instrument Serif', serif;
@@ -75,10 +77,15 @@
     padding-left: 0.5rem;
 }
 .Expense section:last-child form button {
+    background-color: var(--Font-Color);
+    border: none;
+    border-radius: 3px;
+    color: white;
     cursor: pointer;
     font-family: 'Instrument Serif', serif;
     font-size: 16px;
     padding: 0.5rem 0.8rem;
+    width: 200px;
 }
 .ExpenseHistory {
     height: 450px;
@@ -110,22 +117,33 @@
     padding: 0rem 2rem;
     width: 750px;
 }
+#Icon {
+    font-size: 30px;
+    margin-right: 1.5rem;
+}
 .Expense section:last-child li div {
     display: flex;
     flex-direction: column;
     row-gap: 0.85rem;
     width: 700px;
 }
+.Expense section:last-child div li h3 {
+    font-size: 24px;
+    font-weight: normal;
+}
 .Expense section:last-child div li p {
-    /* background-color: var(--Background-Color); */
     border: none;
     color: white;
     font-family: 'Instrument Serif', serif;
     font-size: 19px;
     outline: 0;
 }
+.Expense section:last-child div li p i {
+    margin-right: 0.45rem;
+}
 #Memo {
-    width: 300px;
+    text-align: center;
+    width: 250px;
 }
 #Delete {
     background-color: white;

@@ -111,7 +111,7 @@
     padding-bottom: 0.65rem;
 }
 .Calculator section:last-child thead td {
-    color: rgba(255, 255, 255, 0.9);
+    color: black;
     font-size: 17px;
     font-weight: bold;
     width: 150px;

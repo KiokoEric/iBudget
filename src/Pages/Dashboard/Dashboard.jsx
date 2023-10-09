@@ -29,14 +29,15 @@ return (
                 Transactions.map((Transaction) => {
                     return(
                     <li key={Transaction.id} >
+                        <i id='Bill' class="fa-solid fa-money-bills"></i>
                         <div>
                             <section>
                                 <h3>{Transaction.name}</h3> 
                             </section>
                             <section>
-                                <p>Kshs. {Transaction.figure}</p>
-                                <p>Date: {Transaction.Date}</p>
-                                <p id='Memo'>{Transaction.Details}</p>
+                                <p> <i class="fa-solid fa-coins"></i> Kshs. {Transaction.figure}</p>
+                                <p> <i class="fa-solid fa-calendar-days"></i> Date: {Transaction.Date}</p>
+                                <p id='Details'><i class="fa-solid fa-comment"></i> {Transaction.Details}</p>
                             </section>
                         </div>
                     </li>

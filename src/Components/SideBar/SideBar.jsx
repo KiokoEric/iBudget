@@ -7,7 +7,7 @@ export const SideBar = () => {
 return (
     <article className='SideBar' >   
         <div>
-            <h2>Financial Hub</h2>
+            <h1>iBudget</h1>
         </div>
         <div>
             <Link to="/" className='Link' >

@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/iBudget/static/css/main.473cb25a.css",
+    "main.css": "/iBudget/static/css/main.d56637ac.css",
     "main.js": "/iBudget/static/js/main.9d78b809.js",
     "static/js/787.0d9f571e.chunk.js": "/iBudget/static/js/787.0d9f571e.chunk.js",
     "static/media/Stock_Market.jpg": "/iBudget/static/media/Stock_Market.ce59132b8538b77e8396.jpg",
     "index.html": "/iBudget/index.html",
-    "main.473cb25a.css.map": "/iBudget/static/css/main.473cb25a.css.map",
+    "main.d56637ac.css.map": "/iBudget/static/css/main.d56637ac.css.map",
     "main.9d78b809.js.map": "/iBudget/static/js/main.9d78b809.js.map",
     "787.0d9f571e.chunk.js.map": "/iBudget/static/js/787.0d9f571e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.473cb25a.css",
+    "static/css/main.d56637ac.css",
     "static/js/main.9d78b809.js"
   ]
 }

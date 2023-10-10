@@ -24,5 +24,7 @@ body {
 .App {
   display: flex;
   flex-direction: row;
+  margin: auto;
   column-gap: 0.5rem;
+  width: 100%;
 }

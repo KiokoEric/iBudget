@@ -89,7 +89,8 @@ const Incomes = () => {
 
     const handleDelete= (id) => {
         const deleteTransactions = Transactions.filter((Transaction) => Transaction.id !== id);
-        setTransactions(deleteTransactions);
+        setTransactions(deleteTransactions)
+        AddTransaction(deleteTransactions)
     }
 
     // Use Effect

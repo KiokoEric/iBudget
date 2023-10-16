@@ -89,6 +89,7 @@ const Expenses = () => {
     const handleDelete= (id) => {
         const deleteTransactions = Transactions.filter((Transaction) => Transaction.id !== id);
         setTransactions(deleteTransactions);
+        AddTransaction(deleteTransactions)
     }
 
     // USE EFFECT

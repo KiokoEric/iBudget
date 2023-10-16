@@ -27,7 +27,7 @@ const AppContextProvider = ({children}) => {
     const [Expenses, setExpenses] = useState([])
     const [Transactions, setTransactions] =useState(TransactionState())
 
-    const AddIncomes= (Income) => {
+    const AddIncomes= (Income) => { 
         setIncome(Income)
     }
 
@@ -38,13 +38,19 @@ const AppContextProvider = ({children}) => {
     const AddTransaction = (Transactions) => {
         setTransactions([...Transactions])
     }
+
+    // const handleDelete= (id) => {
+    //     console.log("Deleted!")
+    //     const deleteTransaction = Transactions.filter((Transaction) => Transaction.id !== id);
+    //     setTransactions(deleteTransaction); 
+    // }
     
     useEffect(() => {
         localStorage.setItem("DashboardTransaction", JSON.stringify(Transactions))
     },[Transactions]);
 
     return (
-        <AppContext.Provider value={{Income, Expenses, Transactions, AddIncomes, AddExpenses, AddTransaction }} >
+        <AppContext.Provider value={{Income, Expenses, Transactions, AddIncomes, AddExpenses, AddTransaction}} >
             {children}
         </AppContext.Provider>
     )

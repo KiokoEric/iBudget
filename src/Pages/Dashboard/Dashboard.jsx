@@ -11,7 +11,7 @@ return (
         <section>
             <div>
                 <h1>Total Income</h1>
-                <h2>Kshs. {Income} </h2>
+                <h2>Kshs. {Income} </h2> 
             </div>
             <div>
                 <h1>Total Expense</h1>

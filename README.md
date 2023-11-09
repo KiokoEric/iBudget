@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+<h1 align="center"> Welcome to IBUDGET </h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center" >
+iBudget is a user-friendly and efficient financial application designed to help individuals manage their finances with ease and precision.
 
-## Available Scripts
+  <br><br>
+  
+The website application was built using React JS and Loan JS.
 
-In the project directory, you can run:
+[Live Demo](https://kiokoeric.github.io/iBudget)
+</div>
 
-### `npm start`
+<h2 align="center"> Website Pages </h2>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<div>
+  <h3 align="center" >Dashboard/ Home Section</h3>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  <div align="center" >
+    <img  src="https://i.postimg.cc/C1RbNKt3/Dashboard-Section.jpg"> 
 
-### `npm test`
+  </div>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  <br>
+  
+  <p align="center" > The Dashboard section </p>
+</div>
 
-### `npm run build`
+<br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<div>
+  <h3 align="center" >Incomes Section</h3>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  <div align="center" >
+    <img  src="https://i.postimg.cc/qqfQ6nRb/Incomes-Section.jpg"> 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  </div>
 
-### `npm run eject`
+  <br>
+  
+  <p align="center">The Incomes section allows its users to easily input their revenue sources and add relevant details such as date, time, and memo. </p>
+</div>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<div>
+  <h3 align="center" >Expenses Section</h3>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+  <div align="center" >
+    <img  src="https://i.postimg.cc/fyLWX3rd/Expenses-Section.jpg"> 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+  </div>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+  <br>
+  
+  <p align="center">The Expenses section allows its users to easily input their revenue sources and add relevant details such as date, time, and memo.  </p>
+</div>
 
-## Learn More
+<div>
+  <h3 align="center" >Loan Calculator Section</h3>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+  <div align="center" >
+    <img  src="https://i.postimg.cc/KjSSc1yF/Loan-Calculator-Section.jpg"> 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  </div>
 
-### Code Splitting
+  <br>
+  <p align="center">Users can easily determine various aspects of a loan, including monthly payments, interest costs, and total repayment amounts by inputting the necessary loan amount, interest rate and loan term. </p>
+  
+</div>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<div>
+  
+<h3 align="center" >Invest Section</h3>
 
-### Analyzing the Bundle Size
+  <div align="center" >
+    <img  src="https://i.postimg.cc/C1KdC6Zd/Invest-Section.jpg"> 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+  </div>
 
-### Making a Progressive Web App
+  <br>
+  <p align="center">Users can easily access the latest stock market prices for their favourite stocks, allowing them to grow their investment portfolio.</p>
+  
+</div>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
